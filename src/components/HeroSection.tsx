@@ -42,7 +42,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="mb-4 text-xs font-light tracking-[0.3em] uppercase text-primary-foreground/80"
         >
-          Rénovation haut de gamme · Depuis 1987
+          Rénovation haut de gamme · Depuis 2005
         </motion.p>
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
