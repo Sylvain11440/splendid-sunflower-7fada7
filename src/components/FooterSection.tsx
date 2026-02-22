@@ -12,7 +12,7 @@ const FooterSection = () => {
             </h3>
             <p className="mt-4 text-sm leading-relaxed text-primary-foreground/60">
               Rénovation haut de gamme de salles de bain et douches à l'italienne.
-              Un savoir-faire familial depuis 1987.
+              Un savoir-faire familial depuis 2005.
             </p>
           </div>
 
