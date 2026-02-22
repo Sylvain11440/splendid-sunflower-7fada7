@@ -3,19 +3,9 @@ import { Star } from "lucide-react";
 
 const reviews = [
   {
-    name: "Sophie & Marc L.",
-    text: "Un travail d'une qualité exceptionnelle. Notre douche à l'italienne est une véritable œuvre d'art. L'équipe a été à l'écoute du moindre détail.",
-    location: "Paris 16e",
-  },
-  {
-    name: "Catherine D.",
-    text: "Professionnalisme et savoir-faire remarquables. Le résultat dépasse toutes nos attentes. On se croirait dans un spa de luxe chaque matin.",
-    location: "Neuilly-sur-Seine",
-  },
-  {
-    name: "Jean-Philippe R.",
-    text: "Troisième rénovation avec Les Artisans du Bain. La constance dans l'excellence est leur marque de fabrique. Je recommande les yeux fermés.",
-    location: "Versailles",
+    name: "regine.legier",
+    text: "Rénovation de tout un appartement sur Narbonne. Les Artisans du bain sont intervenus entièrement pour la réfection de la salle d'eau, des wc, de la cuisine. C'est une entreprise qui s'est très bien entendue avec les autres entrepreneurs et le chantier a duré seulement 4 mois. Ce fut un plaisir de traiter avec eux. Service après vente très performant. Je recommande grandement.",
+    location: "Narbonne",
   },
 ];
 
@@ -41,12 +31,12 @@ const ReviewsSection = () => {
               <Star key={i} className="h-5 w-5 fill-warm text-warm" />
             ))}
             <span className="ml-3 text-sm text-muted-foreground">
-              5/5 sur Google · 120+ avis
+              5/5 · 30+ avis sur Google &amp; Pages Jaunes
             </span>
           </div>
         </motion.div>
 
-        <div className="grid gap-8 md:grid-cols-3 md:gap-10">
+        <div className="mx-auto grid max-w-2xl gap-8 md:gap-10">
           {reviews.map((review, index) => (
             <motion.div
               key={review.name}
