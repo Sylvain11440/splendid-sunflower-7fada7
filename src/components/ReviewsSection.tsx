@@ -3,9 +3,44 @@ import { Star } from "lucide-react";
 
 const reviews = [
   {
-    name: "regine.legier",
-    text: "Rénovation de tout un appartement sur Narbonne. Les Artisans du bain sont intervenus entièrement pour la réfection de la salle d'eau, des wc, de la cuisine. C'est une entreprise qui s'est très bien entendue avec les autres entrepreneurs et le chantier a duré seulement 4 mois. Ce fut un plaisir de traiter avec eux. Service après vente très performant. Je recommande grandement.",
+    name: "Régine L.",
+    text: "Rénovation de tout un appartement sur Narbonne. Les Artisans du bain sont intervenus entièrement pour la réfection de la salle d'eau, des wc, de la cuisine. C'est une entreprise qui s'est très bien entendue avec les autres entrepreneurs. Service après vente très performant. Je recommande grandement.",
     location: "Narbonne",
+  },
+  {
+    name: "Gema",
+    text: "Rénovation complète de notre salle de bain. Travail soigné et réalisé dans les temps. Nous avons apprécié le professionnalisme et la gentillesse des intervenants. Entreprise à recommander sans problème.",
+    location: "Pages Jaunes",
+  },
+  {
+    name: "D42",
+    text: "Rénovation complète d'une salle de bains. Travail très professionnel. Chantier très propre exécuté dans le respect des délais. Artisan consciencieux et méticuleux, soucieux du détail. À l'écoute du client avec de bons conseils. Entreprise à recommander.",
+    location: "Pages Jaunes",
+  },
+  {
+    name: "Romanc",
+    text: "Entreprise très professionnelle, respect des délais, propreté du chantier, conseils précieux, amabilité et compétence. Tout a été parfait pour la réfection de notre salle de bains.",
+    location: "Pages Jaunes",
+  },
+  {
+    name: "Marie-Chantal C.",
+    text: "Artisans compétents, sérieux, respectueux, à l'écoute du client tout en proposant toujours la meilleure solution pour toujours faire mieux, pour l'entière satisfaction du client. À recommander pour vos futurs travaux.",
+    location: "Pages Jaunes",
+  },
+  {
+    name: "Mimosas11",
+    text: "Nous sommes très content des ouvrages faits par Les Artisans du bain. Efficacité, propreté, discrétion, et professionnalisme. Les détails sont soignés et les conseils ont été très appréciés. Ravis de tout. Merci.",
+    location: "Pages Jaunes",
+  },
+  {
+    name: "Bourdeix",
+    text: "Une équipe très professionnelle, à l'écoute. Le travail est impeccable et effectué dans les délais. Notre salle de bain a été entièrement rénovée et le « avant » « après » est impressionnant. Je recommande chaleureusement les artisans du bain.",
+    location: "Pages Jaunes",
+  },
+  {
+    name: "Cochrisna",
+    text: "Une équipe de professionnels à l'écoute de mes demandes, avec des conseils judicieux. Le résultat est sublime, au-delà de mes attentes. Le travail est de qualité et soigneux. Je referai appel à leur compétence en toute confiance.",
+    location: "Pages Jaunes",
   },
 ];
 
@@ -36,7 +71,7 @@ const ReviewsSection = () => {
           </div>
         </motion.div>
 
-        <div className="mx-auto grid max-w-2xl gap-8 md:gap-10">
+        <div className="grid gap-8 md:grid-cols-3 md:gap-10">
           {reviews.map((review, index) => (
             <motion.div
               key={review.name}
