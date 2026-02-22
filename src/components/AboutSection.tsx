@@ -32,25 +32,24 @@ const AboutSection = () => {
               Notre histoire
             </p>
             <h2 className="mb-8 text-3xl font-medium leading-snug tracking-tight md:text-4xl lg:text-5xl">
-              Un savoir-faire
+              Bien plus que des artisans,
               <br />
-              <em className="font-normal italic">transmis de père en fils</em>
+              <em className="font-normal italic">des Artistes !</em>
             </h2>
             <div className="space-y-5 text-base leading-relaxed text-muted-foreground">
               <p>
-                Depuis plus de trois décennies, la famille Dupont perpétue l'art
-                de la rénovation de salles de bain d'exception. Chaque projet est
-                une œuvre unique, pensée dans les moindres détails.
+                Spécialistes en rénovation de salles de bain &amp; douches à
+                l'italienne haut de gamme. Chaque projet est une œuvre unique.
               </p>
               <p>
-                Notre exigence ? L'excellence absolue. Des matériaux les plus
-                nobles aux finitions les plus raffinées, nous transformons vos
-                espaces en véritables sanctuaires de bien-être.
+                De père en fils, nous réalisons vos projets d'intérieur avec un
+                savoir-faire reconnu. Excellence, authenticité et sérieux sont
+                au cœur de notre métier.
               </p>
             </div>
             <div className="mt-10 flex gap-12">
               <div>
-                <p className="text-serif text-3xl font-semibold text-foreground">35+</p>
+                <p className="text-serif text-3xl font-semibold text-foreground">20+</p>
                 <p className="mt-1 text-xs tracking-[0.2em] uppercase text-muted-foreground">
                   Années d'expérience
                 </p>
