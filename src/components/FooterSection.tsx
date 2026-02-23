@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail } from "lucide-react";
 
 const FooterSection = () => {
   return (
@@ -23,11 +23,11 @@ const FooterSection = () => {
             </p>
             <div className="space-y-4">
               <a
-                href="tel:+33145678900"
+                href="tel:+33606840070"
                 className="flex items-center gap-3 text-sm text-primary-foreground/80 transition-colors hover:text-primary-foreground"
               >
                 <Phone className="h-4 w-4" strokeWidth={1.5} />
-                01 45 67 89 00
+                06 06 84 00 70
               </a>
               <a
                 href="mailto:contact@artisansdubain.fr"
@@ -36,14 +36,6 @@ const FooterSection = () => {
                 <Mail className="h-4 w-4" strokeWidth={1.5} />
                 contact@artisansdubain.fr
               </a>
-              <div className="flex items-start gap-3 text-sm text-primary-foreground/80">
-                <MapPin className="mt-0.5 h-4 w-4 shrink-0" strokeWidth={1.5} />
-                <span>
-                  12 rue du Faubourg Saint-Honoré
-                  <br />
-                  75008 Paris
-                </span>
-              </div>
             </div>
           </div>
 
