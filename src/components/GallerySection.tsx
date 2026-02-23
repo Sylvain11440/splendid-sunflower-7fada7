@@ -9,6 +9,12 @@ import gallery4 from "@/assets/gallery/gallery-4.jpg";
 import gallery5 from "@/assets/gallery/gallery-5.jpg";
 import gallery6 from "@/assets/gallery/gallery-6.jpg";
 import gallery7 from "@/assets/gallery/gallery-7.jpg";
+import gallery8 from "@/assets/gallery/gallery-8.jpg";
+import gallery9 from "@/assets/gallery/gallery-9.jpg";
+import gallery10 from "@/assets/gallery/gallery-10.jpg";
+import gallery11 from "@/assets/gallery/gallery-11.jpg";
+import gallery12 from "@/assets/gallery/gallery-12.jpg";
+import gallery13 from "@/assets/gallery/gallery-13.jpg";
 
 const galleryImages = [
   { src: gallery1, alt: "Double vasque en pierre avec miroir rétroéclairé" },
@@ -18,6 +24,12 @@ const galleryImages = [
   { src: gallery5, alt: "Douche italienne avec niche bois et robinetterie noire" },
   { src: gallery6, alt: "Douche avec carrelage 3D et éclairage LED indirect" },
   { src: gallery7, alt: "Salle de bain design avec miroirs ronds LED et mosaïque dorée" },
+  { src: gallery8, alt: "Salle de bain marbre blanc avec double vasque noire et miroir LED" },
+  { src: gallery9, alt: "Salle de bain béton et bois avec sèche-serviettes chromé" },
+  { src: gallery10, alt: "Cuisine moderne avec îlot central et murs végétaux" },
+  { src: gallery11, alt: "Salle de bain boisée avec baignoire et meuble suspendu" },
+  { src: gallery12, alt: "Baignoire îlot avec meuble bois cannelé et robinetterie dorée" },
+  { src: gallery13, alt: "Baignoire habillée bois avec niche éclairée et carrelage ardoise" },
 ];
 
 const GallerySection = () => {
