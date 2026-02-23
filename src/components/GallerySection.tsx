@@ -15,6 +15,9 @@ import gallery10 from "@/assets/gallery/gallery-10.jpg";
 import gallery11 from "@/assets/gallery/gallery-11.jpg";
 import gallery12 from "@/assets/gallery/gallery-12.jpg";
 import gallery13 from "@/assets/gallery/gallery-13.jpg";
+import gallery14 from "@/assets/gallery/gallery-14.jpg";
+import gallery15 from "@/assets/gallery/gallery-15.jpg";
+import gallery16 from "@/assets/gallery/gallery-16.jpg";
 
 const galleryImages = [
   { src: gallery1, alt: "Double vasque en pierre avec miroir rétroéclairé" },
@@ -30,6 +33,9 @@ const galleryImages = [
   { src: gallery11, alt: "Salle de bain boisée avec baignoire et meuble suspendu" },
   { src: gallery12, alt: "Baignoire îlot avec meuble bois cannelé et robinetterie dorée" },
   { src: gallery13, alt: "Baignoire habillée bois avec niche éclairée et carrelage ardoise" },
+  { src: gallery14, alt: "Vasque noire avec miroir LED rond et meuble bois massif" },
+  { src: gallery15, alt: "Buanderie sur-mesure avec cave à vin et crédence marbre" },
+  { src: gallery16, alt: "Salle de bain bois et noir avec vasque suspendue et verrière" },
 ];
 
 const GallerySection = () => {
