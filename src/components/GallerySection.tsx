@@ -9,17 +9,15 @@ import gallery4 from "@/assets/gallery/gallery-4.jpg";
 import gallery5 from "@/assets/gallery/gallery-5.jpg";
 import gallery6 from "@/assets/gallery/gallery-6.jpg";
 import gallery7 from "@/assets/gallery/gallery-7.jpg";
-import gallery8 from "@/assets/gallery/gallery-8.jpg";
 
 const galleryImages = [
-  { src: gallery1, alt: "Salle de bain moderne avec baignoire encastrée" },
-  { src: gallery2, alt: "Douche à l'italienne avec carrelage pierre naturelle" },
-  { src: gallery3, alt: "Salle de bain design avec éclairage LED" },
-  { src: gallery4, alt: "Rénovation complète salle d'eau contemporaine" },
-  { src: gallery5, alt: "Douche italienne avec paroi vitrée" },
-  { src: gallery6, alt: "Meuble vasque sur-mesure en bois noble" },
-  { src: gallery7, alt: "Salle de bain luxueuse avec double vasque" },
-  { src: gallery8, alt: "Aménagement salle de bain haut de gamme" },
+  { src: gallery1, alt: "Double vasque en pierre avec miroir rétroéclairé" },
+  { src: gallery2, alt: "Douche à l'italienne avec banc bois et carrelage foncé" },
+  { src: gallery3, alt: "Meuble vasque noir avec miroir LED et pierre naturelle" },
+  { src: gallery4, alt: "Salle de bain moderne avec paroi verrière noire et meuble bois" },
+  { src: gallery5, alt: "Douche italienne avec niche bois et robinetterie noire" },
+  { src: gallery6, alt: "Douche avec carrelage 3D et éclairage LED indirect" },
+  { src: gallery7, alt: "Salle de bain design avec miroirs ronds LED et mosaïque dorée" },
 ];
 
 const GallerySection = () => {
