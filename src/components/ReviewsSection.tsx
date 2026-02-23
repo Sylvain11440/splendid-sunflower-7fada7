@@ -42,6 +42,11 @@ const reviews = [
     text: "Une équipe de professionnels à l'écoute de mes demandes, avec des conseils judicieux. Le résultat est sublime, au-delà de mes attentes. Le travail est de qualité et soigneux. Je referai appel à leur compétence en toute confiance.",
     location: "Pages Jaunes",
   },
+  {
+    name: "Anne-Laure V.",
+    text: "Artisan très compétent, fiable, réactif et qui a fait du beau travail pour ma salle de bain ! Merci.",
+    location: "Google",
+  },
 ];
 
 const ReviewsSection = () => {
