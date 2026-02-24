@@ -12,7 +12,7 @@ const expertises = [
     icon: Diamond,
     title: "Matériaux nobles",
     description:
-      "Marbre de Carrare, grès cérame italien, robinetterie en laiton brossé… Nous sélectionnons les plus beaux matériaux pour sublimer votre salle de bain.",
+      "Dekton, Monolith, bois, grès cérame italien, robinetterie en laiton brossé… Nous sélectionnons les plus beaux matériaux pour sublimer votre salle de bain.",
   },
   {
     icon: Hammer,
