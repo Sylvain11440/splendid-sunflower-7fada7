@@ -1,4 +1,4 @@
-import { Phone, Mail } from "lucide-react";
+import { Phone, Mail, Facebook, Instagram } from "lucide-react";
 
 const FooterSection = () => {
   return (
@@ -36,6 +36,38 @@ const FooterSection = () => {
                 <Mail className="h-4 w-4" strokeWidth={1.5} />
                 contact@artisansdubain.fr
               </a>
+              <div className="flex items-center gap-4 pt-2">
+                <a
+                  href="https://www.facebook.com/lesartisansdubain/?locale=fr_FR"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-foreground/60 transition-colors hover:text-primary-foreground"
+                  aria-label="Facebook"
+                >
+                  <Facebook className="h-5 w-5" strokeWidth={1.5} />
+                </a>
+                <a
+                  href="https://www.instagram.com/lesartisansdubain/?hl=fr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-foreground/60 transition-colors hover:text-primary-foreground"
+                  aria-label="Instagram"
+                >
+                  <Instagram className="h-5 w-5" strokeWidth={1.5} />
+                </a>
+                <a
+                  href="https://pin.it/1Z76NvLAG"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-foreground/60 transition-colors hover:text-primary-foreground"
+                  aria-label="Pinterest"
+                >
+                  <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M8 12a4 4 0 1 1 8 0c0 2.5-1.5 5-3 6.5l-1-3.5" />
+                    <path d="M12 2a10 10 0 1 0 4 19.2" />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
 
