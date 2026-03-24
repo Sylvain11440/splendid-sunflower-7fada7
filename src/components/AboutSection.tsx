@@ -55,7 +55,7 @@ const AboutSection = () => {
                 </p>
               </div>
               <div>
-                <p className="text-serif text-3xl font-semibold text-foreground">500+</p>
+                <p className="text-serif text-3xl font-semibold text-foreground">+500</p>
                 <p className="mt-1 text-xs tracking-[0.2em] uppercase text-muted-foreground">
                   Projets réalisés
                 </p>
