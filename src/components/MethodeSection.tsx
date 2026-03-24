@@ -17,7 +17,7 @@ const steps = [
     number: "03",
     title: "Installation Soignée",
     description:
-      "Nos artisans réalisent votre salle de bain avec précision. Vous n'avez qu'à profiter du résultat.",
+      "Nos artisans réalisent votre salle de bain avec précision. Afin de garantir un travail de qualité, nous réalisons un chantier à la fois, jusqu'à son achèvement complet.",
   },
 ];
 
