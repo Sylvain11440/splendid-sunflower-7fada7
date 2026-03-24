@@ -49,7 +49,7 @@ const AboutSection = () => {
             </div>
             <div className="mt-10 flex gap-12">
               <div>
-                <p className="text-serif text-3xl font-semibold text-foreground">20+</p>
+                <p className="text-serif text-3xl font-semibold text-foreground">+20</p>
                 <p className="mt-1 text-xs tracking-[0.2em] uppercase text-muted-foreground">
                   Années d'expérience
                 </p>
