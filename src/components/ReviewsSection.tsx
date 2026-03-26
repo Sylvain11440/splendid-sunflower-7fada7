@@ -71,7 +71,7 @@ const ReviewsSection = () => {
               <Star key={i} className="h-5 w-5 fill-warm text-warm" />
             ))}
             <span className="ml-3 text-sm text-muted-foreground">
-              5/5 · 30+ avis sur Google &amp; Pages Jaunes
+              5/5 · +30 avis sur Google &amp; Pages Jaunes
             </span>
           </div>
         </motion.div>
