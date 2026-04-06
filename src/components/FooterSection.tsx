@@ -30,11 +30,11 @@ const FooterSection = () => {
                 06 06 84 00 70
               </a>
               <a
-                href="mailto:contact@artisansdubain.fr"
+                href="mailto:contact@lesartisansdubain.fr"
                 className="flex items-center gap-3 text-sm text-primary-foreground/80 transition-colors hover:text-primary-foreground"
               >
                 <Mail className="h-4 w-4" strokeWidth={1.5} />
-                contact@artisansdubain.fr
+                contact@lesartisansdubain.fr
               </a>
               <div className="flex items-center gap-4 pt-2">
                 <a
@@ -81,7 +81,7 @@ const FooterSection = () => {
               consultation et un devis personnalisé sans engagement.
             </p>
             <a
-              href="mailto:contact@artisansdubain.fr"
+              href="mailto:contact@lesartisansdubain.fr"
               className="inline-block border border-primary-foreground/30 px-8 py-3 text-xs font-medium tracking-[0.2em] uppercase text-primary-foreground transition-all duration-300 hover:border-primary-foreground/60 hover:bg-primary-foreground/5"
             >
               Demander un devis
