@@ -30,7 +30,7 @@ const FooterSection = () => {
                 06 06 84 00 70
               </a>
               <a
-                href="mailto:contact@artisansdubain.fr"
+                href="mailto:contact@lesartisansdubain.fr"
                 className="flex items-center gap-3 text-sm text-primary-foreground/80 transition-colors hover:text-primary-foreground"
               >
                 <Mail className="h-4 w-4" strokeWidth={1.5} />
