@@ -81,7 +81,7 @@ const FooterSection = () => {
               consultation et un devis personnalisé sans engagement.
             </p>
             <a
-              href="mailto:contact@artisansdubain.fr"
+              href="mailto:contact@lesartisansdubain.fr"
               className="inline-block border border-primary-foreground/30 px-8 py-3 text-xs font-medium tracking-[0.2em] uppercase text-primary-foreground transition-all duration-300 hover:border-primary-foreground/60 hover:bg-primary-foreground/5"
             >
               Demander un devis
