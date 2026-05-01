@@ -14,6 +14,9 @@ const FooterSection = () => {
               Rénovation haut de gamme de salles de bain et douches à l'italienne.
               Un savoir-faire familial depuis 2005.
             </p>
+            <p className="mt-4 text-sm leading-relaxed text-primary-foreground/60">
+              Votre artisan salle de bain à Narbonne, spécialisé en rénovation dans l'Aude et en création de douches à l'italienne sur mesure, pour un projet clé en main alliant confort, design et qualité durable.
+            </p>
           </div>
 
           {/* Contact */}
